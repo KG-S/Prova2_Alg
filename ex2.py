@@ -37,6 +37,7 @@ def cor(lista):
                                 esque = listaZero[o] - i
                             if dire > (i - listaZero[o+1]):
                                 dire = i - listaZero[o+1]
+            
                         
                     print(lista[i],i, o, esque, dire)
 
